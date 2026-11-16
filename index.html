@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Competitor Radar · Nestlé Vietnam</title>
+<meta name="description" content="Competitor Radar prototype for Nestlé Vietnam N&amp;H (NH-2 Weekly Pulse). Synthetic demo data.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#242525">
+<link rel="icon" type="image/png" href="assets/img/nestle-logo.png">
+<link rel="apple-touch-icon" href="assets/img/nestle-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<div class="app">
+  <aside class="side" aria-label="Main">
+    <div class="brand"><img src="assets/img/nestle-logo.png" alt="Nestlé"><div><b>Competitor Radar</b><span>Nestlé Vietnam</span></div></div>
+    <nav class="nav" id="nav"></nav>
+    <div class="side-foot">
+      <div class="story" id="story"></div>
+      <div id="demoRole"></div>
+    </div>
+    <div class="side-bottom"><a href="#" class="side-signout" data-act="signout"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9"/></svg><span>Sign Out</span></a>
+      <div class="demo-note"><i></i>Synthetic demo data<span class="ver">v0.1.0</span></div>
+    </div>
+  </aside>
+  <div class="main">
+    <header class="top" id="top"></header>
+    <div class="body" id="body">
+      <main class="view" id="view" tabindex="-1"></main>
+      <aside class="chat" id="chat" aria-label="Ask"></aside>
+    </div>
+  </div>
+</div>
+<div class="pop" id="pop" role="menu"></div>
+<div class="scrim" id="scrim"></div>
+<section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle"></section>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="intro" id="intro" role="dialog" aria-modal="true"></div>
+<div class="signin" id="signin" role="dialog" aria-modal="true" aria-label="Sign in"></div>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/fullscreen.js"></script>
+</body>
+</html>
